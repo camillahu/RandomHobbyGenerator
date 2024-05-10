@@ -24,23 +24,23 @@ void GetHobby()
     var randHobby = rand.Next(0, 5);
     if (randHobby == 0)
     {
-        Console.WriteLine($"{name} is now a magician!");
+        Console.WriteLine($"{name} is now a liver-patè taster!");
     }
     else if(randHobby == 1)
     {
-        Console.WriteLine($"{name} is now a professional toad-licker!");
+        Console.WriteLine($"{name} is now a professional toad licker!");
     }
     else if (randHobby == 2)
     {
-        Console.WriteLine($"{name} is now a singer!");
+        Console.WriteLine($"{name} is now a sock knitter!");
     }
     else if (randHobby == 3)
     {
-        Console.WriteLine($"{name} is now a professional fish-cuddler!");
+        Console.WriteLine($"{name} is now a professional fish cuddler!");
     }
     else 
     {
-        Console.WriteLine($"{name} is now a professional Waldo-finder!");
+        Console.WriteLine($"{name} is now a professional Waldo finder!");
     }
 }
 
